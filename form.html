@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style type="text/css">
+        body{background-color: aquamarine;}
+
+        form{width: 800px; margin: 50px auto;}
+
+        legend{
+            display: block;
+            padding: 10px;
+        }
+        label{color: black;
+                text-transform: uppercase;
+            font-size: 19px; }
+
+        input,textarea{width: 100%;}
+
+        
+        input[type=password],
+        input[type=text],
+        input[type=email],
+        input[type=submit],
+        input[type=file],
+        textarea
+        
+            {
+            padding:10px;
+            border: solid 1px #999;
+        }
+
+        input[type=radio]{
+            display: flex;
+        }
+
+      
+
+
+    </style>
+</head>
+<body>
+ <form method="get" action="login.php" >
+    <h1>Registration Form</h1>   
+
+    <legend>
+
+<label>Firstname:</label>
+<input type="text" value="" name="firstname" id="firstname" placeholder="Clement">
+</legend>
+
+
+<legend>
+<label>Lastname</label>
+<input type="text" name="" placeholder="Adetunji">
+</legend>
+
+<legend>
+<label>Email Address</label>
+<input type="email" name="email" id="email">
+</legend>
+
+<legend>
+<label>Your Password</label>
+<input type="password" name="" id="">
+</legend>
+
+
+<legend>
+<label>Attach Your CV:</label>
+<input type="file" name="" id="">
+</legend>
+
+<legend>
+<label>Your Password</label>
+<input type="password" name="" id="">
+</legend>
+
+<legend>
+<label>Male</label>
+<input type="radio"  name="Gender" id="male" value="Male">
+<label>Female</label>
+<input type="radio" name="Gender" id="female" value="female">
+</legend>
+
+
+
+<legend>
+    <label for="">Comment</label>
+    <textarea name="" id="" cols="30" rows="3"></textarea>
+</legend>
+
+<input  value="Submit" type="submit">
+ </form>
+</body>
+</html>

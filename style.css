@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    display: flex; 
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: cursive;
+}
+
+.form{ background-color: white;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+}
+
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    border: solid 3px black;
+    font-size: 30px;
+}
+
+.input::placeholder{
+color: pink;
+
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+    display: block;
+    border-radius: 5px;
+    padding:10px;
+    margin: 10px 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: grey;
+}
+
+.score{
+    color:steelblue;
+    text-align: right;
+    margin-bottom: 20px;
+}
